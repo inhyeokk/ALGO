@@ -2,7 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
@@ -14,45 +16,49 @@ public class BOJ_1261_G5_알고스팟 {
 		int m = Integer.parseInt(st.nextToken());
 		int n = Integer.parseInt(st.nextToken());
 		char[][] map = new char[n][m];
-		int[][] weight = new int[n][m];
+		boolean[][] visit = new boolean[n][m];
 		for (int i = 0; i < n; ++i) {
 			map[i] = bf.readLine().toCharArray();
-			Arrays.fill(weight[i], -1);
 		}
+		bf.close();
 		
-		Queue<Integer> queue = new LinkedList<>();
-		queue.add(0);
-		queue.add(0);
-		queue.add(0);
-		weight[0][0] = 0;
-		int min = Integer.MAX_VALUE;
+		// 벽을 최소로 부순 횟수 오름차순
+		PriorityQueue<int[]> queue = new PriorityQueue<>(new Comparator<int[]>() {
+			@Override
+			public int compare(int[] o1, int[] o2) {
+				if (o1[2] < o2[2]) {
+					return -1;
+				} else if (o1[2] == o2[2]) {
+					return 0;
+				} else {
+					return 1;
+				}
+			}
+		});
+		queue.add(new int[] {0,0,0});
+		visit[0][0] = true;
 		while (!queue.isEmpty()) {
-			int row = queue.poll();
-			int col = queue.poll();
-			int wei = queue.poll();
-			if (row == n-1 && col == m-1) {
-				min = min > wei ? wei : min;
-				continue;
+			int[] spot = queue.poll();
+			if (spot[0] == n-1 && spot[1] == m-1) {
+				System.out.print(spot[2]);
+				break;
 			}
 			for (int d = 0; d < di.length; ++d) {
-				int nr = row + di[d][0];
-				int nc = col + di[d][1];
+				int nr = spot[0] + di[d][0];
+				int nc = spot[1] + di[d][1];
 				if (isInRange(nr,nc,n,m)) {
-					int twei = wei;
+					int twei = spot[2];
+					// 벽을 부숨
 					if (map[nr][nc] == '1') {
 						++twei;
 					}
-					if (weight[nr][nc] == -1 || weight[nr][nc] > twei) {
-						weight[nr][nc] = twei;
-						queue.add(nr);
-						queue.add(nc);
-						queue.add(twei);
+					if (!visit[nr][nc]) {
+						visit[nr][nc] = true;
+						queue.add(new int[] {nr,nc,twei});
 					}
 				}
 			}
 		}
-		System.out.print(min);
-		bf.close();
 	}
 	
 	private static boolean isInRange(int row, int col, int n, int m) {

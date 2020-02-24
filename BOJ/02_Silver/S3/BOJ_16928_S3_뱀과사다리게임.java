@@ -23,7 +23,7 @@ public class BOJ_16928_S3_뱀과사다리게임 {
 		
 		Queue<Integer> queue = new LinkedList<>();
 		queue.add(1);
-		int roll = 0;
+		int roll = 0; // 몇 번 굴리는지
 		boolean[] visit = new boolean[101];
 		while(!queue.isEmpty()) {
 			for (int i = 0, size = queue.size(); i < size; ++i) {
@@ -33,7 +33,7 @@ public class BOJ_16928_S3_뱀과사다리게임 {
 					return;
 				}
 				for (int j = 1; j <= 6; ++j) {
-					if (loc + j <= 100) {
+					if (loc + j <= 100) { // 범위 체크
 						if (arr[loc+j] == 0 && !visit[loc+j]) {
 							queue.add(loc+j);
 							visit[loc+j] = true;

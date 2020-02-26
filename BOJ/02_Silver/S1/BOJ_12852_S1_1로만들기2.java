@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class BOJ_12852_S1_1로만들기 {
+public class BOJ_12852_S1_1로만들기2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
@@ -11,8 +11,8 @@ public class BOJ_12852_S1_1로만들기 {
 		List<Integer> tmp = new LinkedList<>();
 		tmp.add(n);
 		queue.add(new Oper(n, tmp));
-		int[] weight = new int[n+1];
-		weight[n] = 0;
+		boolean[] visit = new boolean[n+1];
+		visit[n] = true;
 		while (!queue.isEmpty()) {
 			Oper o = queue.poll();
 			if (o.n == 1) {
@@ -24,22 +24,22 @@ public class BOJ_12852_S1_1로만들기 {
 				System.out.print(sb);
 				break;
 			}
-			if (o.n % 3 == 0 && (weight[o.n / 3]==0 || weight[o.n / 3] > o.order.size())) {
-				weight[o.n / 3] = o.order.size();
+			if (o.n % 3 == 0 && !visit[o.n/3]) {
+				visit[o.n/3] = true;
 				int x = o.n / 3;
 				List<Integer> l = new LinkedList<>(o.order);
 				l.add(x);
 				queue.add(new Oper(x, l));
 			}
-			if (o.n % 2 == 0 && (weight[o.n / 2]==0 || weight[o.n / 2] > o.order.size())) {
-				weight[o.n / 2] = o.order.size();
+			if (o.n % 2 == 0 && !visit[o.n/2]) {
+				visit[o.n/2] = true;
 				int x = o.n / 2;
 				List<Integer> l = new LinkedList<>(o.order);
 				l.add(x);
 				queue.add(new Oper(x, l));
 			}
-			if (weight[o.n-1]==0 || weight[o.n-1] > o.order.size()) {
-				weight[o.n-1] = o.order.size();
+			if (!visit[o.n-1]) {
+				visit[o.n-1] = true;
 				--o.n;
 				o.order.add(o.n);
 				queue.add(o);

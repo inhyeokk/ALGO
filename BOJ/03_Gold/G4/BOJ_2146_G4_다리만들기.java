@@ -8,13 +8,13 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 /**
- * @{link} https://www.acmicpc.net/problem/2023
+ * @{link} https://www.acmicpc.net/problem/2146
  * @date   2020-03-14
  * @author rkddlsgur983
- * @memory 107000KB / 4MB
+ * @memory 107000KB / 192MB
  * @time   404ms / 2초
  * @idea	1. 각 대륙을 돌면서 바다와 접하고 있는 좌표 리스트를 저장
- * 			   대륙 간 거리를 좌표 간의 절댓값으로 구함 => 시간초과
+ * 			대륙 간 거리를 좌표 간의 절댓값으로 구함 => 시간초과
  * 			2. DFS, BFS 모두 시간초과
  * 			3. 1번 아이디어는 맞지만 연결리스트에서 인덱싱시 시간초과
  * 			   ArrayList로 변경 => 정답 / 빈번한 인덱싱시 주의할 것

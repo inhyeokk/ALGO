@@ -4,7 +4,7 @@
  * @date   2020-03-16
  * @author rkddlsgur983
  */
-public class PRO_L2_n진수게임 {
+public class PRO_L2_3차_n진수게임 {
 	public String solution(int n, int t, int m, int p) {
 		String answer = "";
 		int i = 0, len = 0, c = 0;

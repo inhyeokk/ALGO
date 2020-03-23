@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
  * @date   2020-03-12
  * @author rkddlsgur983
  */
-public class PRO_L2_파일명정렬 {
+public class PRO_L2_3차_파일명정렬 {
 	public String[] solution(String[] files) {
 		PriorityQueue<File> pq = new PriorityQueue<>();
 		for (int i = 0; i < files.length; ++i) {

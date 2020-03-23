@@ -8,7 +8,7 @@ import java.util.Queue;
  * @author 	rkddlsgur983
  * @idea	시뮬레이션
  */
-public class PRO_L2_압축 {
+public class PRO_L2_3차_압축 {
 	public int[] solution(String msg) {
 		HashMap<String, Integer> map = new HashMap<>();
 		int cnt = 0;

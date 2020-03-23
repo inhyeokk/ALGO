@@ -6,7 +6,7 @@ import java.util.HashMap;
  * @author 	rkddlsgur983
  * @idea	문자열 시뮬레이션
  */
-public class PRO_L2_방금그곡 {
+public class PRO_L2_3차_방금그곡 {
 	private HashMap<String, Character> map = new HashMap<>();
 	public String solution(String m, String[] musicinfos) {
 		map.put("A#", 'H');

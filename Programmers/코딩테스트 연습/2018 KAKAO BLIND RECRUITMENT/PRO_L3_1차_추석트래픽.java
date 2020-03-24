@@ -2,9 +2,10 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
- * @{link} https://programmers.co.kr/learn/courses/30/lessons/17676
- * @date   2020-03-23
- * @author rkddlsgur983
+ * @{link} 	https://programmers.co.kr/learn/courses/30/lessons/17676
+ * @date   	2020-03-23
+ * @author 	rkddlsgur983
+ * @idea	값 비교시 Double형 보다 Integer형이 더 안정적임
  */
 public class PRO_L3_1차_추석트래픽 {
 	public int solution(String[] lines) {

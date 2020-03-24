@@ -7,33 +7,26 @@ import java.util.StringTokenizer;
  * @author rkddlsgur983
  */
 public class PRO_L3_1차_추석트래픽 {
-	public static int solution(String[] lines) {
-        StringTokenizer st, st2, st3;
+	public int solution(String[] lines) {
+        StringTokenizer st;
         int size = lines.length;
         Process[] parr = new Process[size];
         for (int i = 0 ; i < size; ++i) {
-            st = new StringTokenizer(lines[i], " ");
+            st = new StringTokenizer(lines[i], " :.s");
             st.nextToken(); // 2016-09-15
 
             // 시분초 -> 초
-            String time = st.nextToken();
-            st2 = new StringTokenizer(time, ":,.");
-            double sec = Integer.parseInt(st2.nextToken())*60*60;
-            sec += Integer.parseInt(st2.nextToken())*60;
-            sec += Integer.parseInt(st2.nextToken());
-            sec += Integer.parseInt(st2.nextToken())/1000.0;
+            int sec = Integer.parseInt(st.nextToken())*60*60;
+            sec += Integer.parseInt(st.nextToken())*60;
+            sec += Integer.parseInt(st.nextToken());
+            sec *= 1000;
+            sec += Integer.parseInt(st.nextToken());
 
             // 처리시간
-            String durings = st.nextToken();
-            double during = 0.0;
-            if (durings.contains(".")) {
-                st3 = new StringTokenizer(durings, ".");
-                during += Integer.parseInt(st3.nextToken());
-                String tmp = st3.nextToken();
-                during += Integer.parseInt(tmp.substring(0, tmp.length()-1))/1000.0;
-            } else {
-                during += Integer.parseInt(durings.substring(0, durings.length()-1));
-            }    
+            int during = Integer.parseInt(st.nextToken())*1000;
+            if (st.hasMoreTokens()) {
+            	during += Integer.parseInt(st.nextToken());
+            }
             parr[i] = new Process(sec < during ? 0 : sec-during, sec);
         }
         
@@ -42,7 +35,7 @@ public class PRO_L3_1차_추석트래픽 {
         for (int i = 0; i < size-1; ++i) {
             int cnt = 1;
             for (int j = i+1; j < size; ++j) {
-                if (parr[i].end+0.998 >= parr[j].start) {
+                if (parr[i].end+988 >= parr[j].start) {
                     ++cnt;
                 }
             }
@@ -51,18 +44,18 @@ public class PRO_L3_1차_추석트래픽 {
         return answer;
     }
 
-    static class Process implements Comparable<Process> {
-        double start;
-        double end;
+    class Process implements Comparable<Process> {
+        int start;
+        int end;
 
-        public Process(double start, double end) {
+        public Process(int start, int end) {
             this.start = start;
             this.end = end;
         }
 
         @Override
         public int compareTo(Process o) {
-            return Double.compare(end, o.end);
+            return Integer.compare(end, o.end);
         }
     }
 }

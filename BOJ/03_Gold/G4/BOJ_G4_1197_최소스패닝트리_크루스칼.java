@@ -11,7 +11,9 @@ import java.util.StringTokenizer;
  * @author 	rkddlsgur983
  * @memory 	52784KB / 128MB
  * @time   	528ms / 2초
- * @idea	최소신장트리 - 크루스칼
+ * @idea		최소신장트리 - 크루스칼
+ *		싸이클이 생기지 않으면서 최소신장을 갖는 트리
+ *		Union-find, 우선순위 큐, 정수 범위
  */
 public class BOJ_G4_1197_최소스패닝트리_크루스칼 {
 	private static int[] parent, rank;
@@ -47,7 +49,7 @@ public class BOJ_G4_1197_최소스패닝트리_크루스칼 {
 			int[] i = pq.poll();
 			int pa = find(i[0]);
 			int pb = find(i[1]);
-			if (pa == pb) continue;
+			if (pa == pb) continue; // 부모가 같은 경우 통과
 			++cnt;
 			sum += i[2];
 			if (cnt == v-1) {
@@ -68,6 +70,10 @@ public class BOJ_G4_1197_최소스패닝트리_크루스칼 {
 	private static void union(int a, int b) {
 		int pa = find(a);
 		int pb = find(b);
+
+		/* rank가 더 작은 신장트리의 루트를 변경하는 것이
+		 * 큰 신장트리를 변경하는 것보다 효율이 좋음
+		 */
 		if (rank[pa] > rank[pb]) { // 높을수록 부모
 			parent[pb] = pa;
 		} else {

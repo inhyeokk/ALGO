@@ -3,10 +3,12 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * {@link} https://www.acmicpc.net/problem/1463
- * @author rkddlsgur983
- * @memory 18240KB
- * @time   112ms
+ * @{link}	https://www.acmicpc.net/problem/1463
+ * @date   	2020-04-16
+ * @author 	rkddlsgur983
+ * @memory 	18212KB / 128MB
+ * @time   	112ms / 2초
+ * @idea	동적 계획법
  */
 public class BOJ_1463_S1_1로만들기 {
 	public static void main(String[] args) {

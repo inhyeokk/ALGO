@@ -1,9 +1,11 @@
+package swea;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class SWEA_1249_보급로 {
+public class SWEA_D4_1249_보급로 {
     private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
      
     public static void main(String[] args) {

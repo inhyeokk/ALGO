@@ -1,5 +1,5 @@
 package programmers;
-class Solution {
+class PRO_L2_탑 {
     public int[] solution(int[] heights) {
 
     	int[] answer = new int[heights.length];

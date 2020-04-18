@@ -1,5 +1,5 @@
 package programmers;
-class Solution {
+class PRO_L2_쇠막대기 {
     public int solution(String arrangement) {
         int answer = 0;
         int cnt = 0;

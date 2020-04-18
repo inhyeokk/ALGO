@@ -1,8 +1,10 @@
+package swea;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class Solution {
+public class SWEA_D4_2819_격자판의숫자이어붙이기 {
 	
 	private static int[][] di = {{0,1}, {1,0}, {0,-1}, {-1,0}};
 	private static HashSet<String> set = new HashSet<>();

@@ -1,12 +1,12 @@
 /* 구명보트
  * 2020.01.19
  */
-package Algorithm.Programmers.코팅테스트_연습.탐욕법;
+package programmers;
 
 import java.util.Arrays;
 import java.util.Comparator;
 
-class Solution {
+class PRO_L2_구명보트 {
     public int solution(int[] people, int limit) {
 
         // 내림차순

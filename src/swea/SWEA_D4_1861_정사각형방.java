@@ -1,9 +1,11 @@
+package swea;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class D4_1861_정사각형방 {
+public class SWEA_D4_1861_정사각형방 {
 	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	private static int[][] map = new int[1000][1000];
 	public static void main(String[] args) throws IOException {

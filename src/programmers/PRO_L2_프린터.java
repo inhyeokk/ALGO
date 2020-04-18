@@ -1,7 +1,7 @@
 package programmers;
 import java.util.Arrays;
 
-class Solution {
+class PRO_L2_프린터 {
     public int solution(int[] priorities, int location) {
         
     	int index = 0;

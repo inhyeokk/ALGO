@@ -1,5 +1,5 @@
 package programmers;
-class Solution {
+class PRO_L2_주식가격 {
     public int[] solution(int[] prices) {
         int[] answer = new int[prices.length];
         for (int i = 0; i < prices.length-1; i++) {

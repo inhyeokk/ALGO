@@ -1,8 +1,8 @@
-package day6;
+package swea;
 
 import java.util.Scanner;
 
-public class Solution {
+public class SWEA_모의_2105_디저트카페 {
 
 	private static int[][] di = {{1,1}, {1,-1}, {-1,-1}, {-1,1}};
 	private static int max = -1;

@@ -1,8 +1,8 @@
-import java.util.Arrays;
-import java.util.HashSet;
+package swea;
+
 import java.util.Scanner;
 
-public class Solution {
+public class SWEA_D4_1219_길찾기 {
 	
 	private static int possible;
 	

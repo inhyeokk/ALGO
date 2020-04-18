@@ -1,7 +1,9 @@
-﻿import java.io.IOException;
+﻿package swea;
+
+import java.io.IOException;
 import java.util.Scanner;
  
-public class SWEA_4408_자기방으로돌아가기 {
+public class SWEA_D4_4408_자기방으로돌아가기 {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         StringBuilder sb = new StringBuilder();

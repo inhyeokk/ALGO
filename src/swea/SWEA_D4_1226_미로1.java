@@ -1,10 +1,10 @@
-package day6.bfs;
+package swea;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class SWEA_1226_미로1 {
+public class SWEA_D4_1226_미로1 {
 	
 	private static int N = 16;
 	private static char[][] map = new char[N][N];

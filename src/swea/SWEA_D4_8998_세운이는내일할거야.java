@@ -1,3 +1,5 @@
+package swea;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -5,7 +7,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class SWEA_8998_세운이는내일할거야 {
+public class SWEA_D4_8998_세운이는내일할거야 {
 	
 	public static void main(String[] args) throws IOException {
 		

@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-class Solution {
+class PRO_L2_기능개발 {
     public static int[] solution(int[] progresses, int[] speeds) {
         
     	Queue<Integer> q = new LinkedList<>();

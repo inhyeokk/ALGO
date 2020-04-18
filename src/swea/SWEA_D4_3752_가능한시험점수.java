@@ -1,10 +1,10 @@
-package day6;
+package swea;
 
 import java.util.HashSet;
 import java.util.Scanner;
  
   
-public class Solution {
+public class SWEA_D4_3752_가능한시험점수 {
  
     public static void main(String[] args) {
  

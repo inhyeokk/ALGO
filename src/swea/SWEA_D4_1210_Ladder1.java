@@ -1,6 +1,8 @@
+package swea;
+
 import java.util.Scanner;
  
-public class Solution {
+public class SWEA_D4_1210_Ladder1 {
      
     public static void main(String[] args) {
          

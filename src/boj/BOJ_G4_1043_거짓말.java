@@ -12,8 +12,8 @@ import java.util.StringTokenizer;
  * @{link}	https://www.acmicpc.net/problem/1043
  * @date   	2020-04-18
  * @author 	rkddlsgur983
- * @memory 	13196KB / 128MB
- * @time   	80ms / 2초
+ * @memory 	13112KB / 128MB
+ * @time   	76ms / 2초
  * @idea	BFS
  */
 public class BOJ_G4_1043_거짓말 {

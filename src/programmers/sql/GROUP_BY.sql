@@ -2,9 +2,12 @@
 select animal_type, count(*) as count from animal_ins group by animal_type;
 
 -- 동명 동물 수 찾기
-select *
-from (select name, count(*) as count from animal_ins where name is not null group by name) as a
-where count >= 2;
+-- https://programmers.co.kr/learn/courses/30/lessons/59041
+select name, count(*) as count
+from animal_ins
+where name is not null
+group by name
+having count >= 2
 
 -- 입양 시각 구하기(1)
 select * 

@@ -2,7 +2,7 @@
  * 90.9 / 100
  * 2020.01.19
  */
-class Solution {
+class PRO_L2_조이스틱 {
     fun solution(name: String): Int {
         var target = name[0] - 'A'
         var answer = when {

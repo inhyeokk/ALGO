@@ -3,7 +3,7 @@
  */
 import java.util.*
 
-class Solution {
+class PRO_L3_이중우선순위큐 {
     fun solution(operations: Array<String>): IntArray {
         val ascendingPQ = PriorityQueue<Int>(Collections.reverseOrder())
         val descendingPQ = PriorityQueue<Int>()

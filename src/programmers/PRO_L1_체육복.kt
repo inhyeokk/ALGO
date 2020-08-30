@@ -1,7 +1,7 @@
 /* 체육복
  * 2020.01.19
  */
-class Solution {
+class PRO_L1_체육복 {
     fun solution(n: Int, lost: IntArray, reserve: IntArray): Int {
 
         for (r in reserve) {

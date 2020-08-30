@@ -18,7 +18,7 @@ import java.util.StringTokenizer;
  * 			이때 2가 된 치즈는 2개 변이 공기와 접촉했으므로 melt에 담긴다.
  */
 public class BOJ_G4_2638_치즈 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine().trim(), " ");

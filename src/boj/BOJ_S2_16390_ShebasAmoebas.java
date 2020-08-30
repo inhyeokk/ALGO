@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
  * @time   80ms / 2초
  */
 public class BOJ_S2_16390_ShebasAmoebas {
-	private static int[][] di = {{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1},{-1,0},{-1,1}};
+	private static final int[][] di = {{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1},{-1,0},{-1,1}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine(), " ");

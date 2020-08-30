@@ -9,7 +9,7 @@ import java.util.Queue;
  * @author 	rkddlsgur983
  */
 public class PRO_L3_1차_프렌즈4블록 {
-	private int[][] di = {{0,1},{1,0},{1,1}};
+	private final int[][] di = {{0,1},{1,0},{1,1}};
 	public int solution(int m, int n, String[] board) {
 		char[][] map = new char[m][n];
 		for (int i = 0; i < m; ++i) {

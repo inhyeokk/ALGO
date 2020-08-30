@@ -17,8 +17,8 @@ import java.util.StringTokenizer;
  * @idea	우선순위 큐와 메모이제이션
  */
 public class BOJ_G5_13549_숨바꼭질3 {
-	private static int N = 100001;
-	private static int[] memo = new int[N];
+	private static final int N = 100001;
+	private static final int[] memo = new int[N];
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine(), " ");

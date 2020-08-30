@@ -14,8 +14,9 @@ import java.util.StringTokenizer;
  * 			https://nexters.me/vg
  */
 public class SWEA_D3_5607_조합 {
-	private static int MOD = 1234567891, N = 1000000;
-	private static long[] fac = new long[N+1];
+	private static final int MOD = 1234567891;
+    private static final int N = 1000000;
+	private static final long[] fac = new long[N+1];
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

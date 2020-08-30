@@ -24,7 +24,7 @@ public class SWEA_D4_1251_하나로_프림 {
 	 * - kruskal: union-find
 	 */
 	private static int n;
-	private static int[][] arr = new int[1000][2];
+	private static final int[][] arr = new int[1000][2];
 	private static double e;
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

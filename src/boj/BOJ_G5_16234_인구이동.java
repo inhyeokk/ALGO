@@ -22,7 +22,7 @@ public class BOJ_G5_16234_인구이동 {
 	private static int[][] map;
 	private static Country[][] cmap;
 	private static boolean[][] visit;
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine(), " ");

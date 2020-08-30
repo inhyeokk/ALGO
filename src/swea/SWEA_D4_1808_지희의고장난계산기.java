@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
  * @time   181ms / 2초
  */
 public class SWEA_D4_1808_지희의고장난계산기 {
-	private static boolean[] calc = new boolean[10];
+	private static final boolean[] calc = new boolean[10];
 	private static int x, min;
 	private static boolean[] visit;
 	private static boolean[] dvisit;

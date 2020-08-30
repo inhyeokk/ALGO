@@ -15,7 +15,7 @@ public class BOJ_G5_17471_게리맨더링 {
 	private static int[] arr; // 선거구 인구수
 	private static List<Integer>[] graph; // 연결된 구역정보
 	private static boolean[] sep; // 선거구 분리
-	private static Queue<Integer> queue = new LinkedList<>();
+	private static final Queue<Integer> queue = new LinkedList<>();
 	private static boolean[] visit;
 	
 	public static void main(String[] args) throws IOException {

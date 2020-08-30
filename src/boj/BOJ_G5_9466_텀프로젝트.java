@@ -22,7 +22,8 @@ import java.util.StringTokenizer;
  */
 public class BOJ_G5_9466_텀프로젝트 {
 	private static int n;
-	private static int[] arr = new int[100000], possible = new int[100000];
+	private static final int[] arr = new int[100000];
+    private static final int[] possible = new int[100000];
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
  * @time   644ms / 2초
  */
 public class BOJ_G4_2206_벽부수고이동하기 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	private static int n, m;
 	private static boolean[][] map;
 	private static int[][] visit; // 벽을 부수고 지나왔는지 체크
@@ -28,7 +28,7 @@ public class BOJ_G4_2206_벽부수고이동하기 {
 		for (int i = 0; i < n; ++i) {
 			String s = bf.readLine();
 			for (int j = 0, len = s.length(); j < len; ++j) {
-				map[i][j] = s.charAt(j) == '1' ? true : false;
+				map[i][j] = s.charAt(j) == '1';
 				visit[i][j] = Integer.MAX_VALUE; // 방문하지 않음
 			}
 		}

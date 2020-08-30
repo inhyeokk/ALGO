@@ -6,7 +6,7 @@ public class SWEA_D2_1954_달팽이숫자 {
      
     private static int size;
     private static int[][] arr;
-    private static int[][] di = {{0,1}, {1,0}, {0,-1}, {-1,0}};
+    private static final int[][] di = {{0,1}, {1,0}, {0,-1}, {-1,0}};
      
     public static void main(String[] args) {
          

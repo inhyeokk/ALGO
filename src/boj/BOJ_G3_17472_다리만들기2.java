@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
  * 			3. 최소 신장 트리를 구하기 위해 크루스칼
  */
 public class BOJ_G3_17472_다리만들기2 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	private static int[] parent, key;
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

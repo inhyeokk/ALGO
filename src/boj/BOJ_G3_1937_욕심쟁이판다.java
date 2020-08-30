@@ -7,12 +7,12 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 public class BOJ_G3_1937_욕심쟁이판다 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	private static int n;
 	private static int[][] map;
 	private static int max = 1; // 최대 일수
 	private static int[][] weight; // 이미 탐색한 최대 일수 저장
-	private static PriorityQueue<Forest> pq = new PriorityQueue<>();
+	private static final PriorityQueue<Forest> pq = new PriorityQueue<>();
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
  * 			https://nexters.me/vg
  */
 public class BOJ_G1_11401_이항계수 {
-	private static int MOD = 1000000007;
+	private static final int MOD = 1000000007;
 	private static long[] fac;
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

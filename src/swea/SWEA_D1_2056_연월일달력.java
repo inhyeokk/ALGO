@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SWEA_D1_2056_연월일달력 {
 
-	private static int[] days = {0,31,28,31,30,31,30,31,31,30,31,30,31};
+	private static final int[] days = {0,31,28,31,30,31,30,31,31,30,31,30,31};
 	
 	public static void main(String[] args) {
 		

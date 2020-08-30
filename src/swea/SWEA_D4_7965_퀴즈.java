@@ -2,7 +2,7 @@ package swea;
 import java.util.Scanner;
 
 public class SWEA_D4_7965_퀴즈 {
-	private static int N = 1000000007;
+	private static final int N = 1000000007;
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		StringBuilder sb = new StringBuilder();

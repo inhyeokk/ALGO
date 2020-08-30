@@ -15,9 +15,9 @@ import java.util.StringTokenizer;
  * @idea	시뮬레이션 - 이동 방향 정보를 배열에 넣어두고 BFS 탐색
  */
 public class SWEA_모의_1953_탈주범검거 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
-	private static int[][] dir = {{},{0,1,2,3},{1,3},{0,2},{0,3},{0,1},{1,2},{2,3}};
-	private static int[][] go = {{1,3,6,7},{1,2,4,7},{1,3,4,5},{1,2,5,6}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] dir = {{},{0,1,2,3},{1,3},{0,2},{0,3},{0,1},{1,2},{2,3}};
+	private static final int[][] go = {{1,3,6,7},{1,2,4,7},{1,3,4,5},{1,2,5,6}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

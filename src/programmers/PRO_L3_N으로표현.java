@@ -14,9 +14,9 @@ import java.util.Set;
  * 			마지막까지 찾지 못했다면 -1을 반환
  */
 public class PRO_L3_N으로표현 {
-	private int M = 8;
-	private List<Integer>[] list = new List[M+1];
-	private Set<Integer> set = new HashSet<>();
+	private final int M = 8;
+	private final List<Integer>[] list = new List[M+1];
+	private final Set<Integer> set = new HashSet<>();
 	public int solution(int N, int number) {
 		for (int i = 1, k = 0; i <= M; ++i) {
 			list[i] = new LinkedList<>();

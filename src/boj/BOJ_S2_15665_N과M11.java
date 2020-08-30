@@ -6,11 +6,11 @@ import java.util.Scanner;
 import java.util.TreeSet;
 
 public class BOJ_S2_15665_N과M11 {
-	private static StringBuilder sb = new StringBuilder();
+	private static final StringBuilder sb = new StringBuilder();
 	private static int n, m;
 	private static int[] arr;
 	private static boolean[] visit;
-	private static TreeSet<int[]> set = new TreeSet<>(new Comparator<int[]>() {
+	private static final TreeSet<int[]> set = new TreeSet<>(new Comparator<int[]>() {
 
 		@Override
 		public int compare(int[] o1, int[] o2) {

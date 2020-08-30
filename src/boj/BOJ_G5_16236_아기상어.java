@@ -17,7 +17,7 @@ import java.util.StringTokenizer;
  * @time   92ms / 2초
  */
 public class BOJ_G5_16236_아기상어 {
-	private static int[][] di = {{-1,0},{0,-1},{0,1},{1,0}};
+	private static final int[][] di = {{-1,0},{0,-1},{0,1},{1,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
@@ -42,8 +42,8 @@ public class BOJ_G5_16236_아기상어 {
 		
 		int time = 0;
 		Queue<Integer> queue = new LinkedList<>();
-		List<Shark> targets = new LinkedList<>();;
-		while (true) {
+		List<Shark> targets = new LinkedList<>();
+        while (true) {
 			boolean possible = false;
 			for (Integer f: fishes) {
 				if (f < babys) {

@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
  * @idea	단순 계산
  */
 public class SWEA_D3_5515_2016년요일맞추기 {
-	private static int[] day = {31,29,31,30,31,30,31,31,30,31,30,31};
+	private static final int[] day = {31,29,31,30,31,30,31,31,30,31,30,31};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

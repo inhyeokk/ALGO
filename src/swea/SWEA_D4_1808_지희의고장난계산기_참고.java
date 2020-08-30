@@ -13,7 +13,8 @@ import java.util.StringTokenizer;
 public class SWEA_D4_1808_지희의고장난계산기_참고 {
 	private static int X;
     private static int min;
-    private static boolean[] calc = new boolean[10];;
+    private static final boolean[] calc = new boolean[10];
+
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;

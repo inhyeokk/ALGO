@@ -22,7 +22,7 @@ import java.util.StringTokenizer;
 public class BOJ_G5_16235_나무재테크 {
 	private static int n, m, k, x, y, z;
 	private static int[][] map, feed;
-	private static int[][] di = {{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1},{-1,0},{-1,1}};
+	private static final int[][] di = {{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1},{-1,0},{-1,1}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");

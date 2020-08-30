@@ -7,7 +7,7 @@ package programmers;
  * @idea	동적 계획법
  */
 public class PRO_L3_등굣길 {
-	private int mod = 1000000007;
+	private final int mod = 1000000007;
 	public int solution(int m, int n, int[][] puddles) {
         int[][] map = new int[n][m];
         for (int[] p: puddles) {

@@ -6,8 +6,8 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class SWEA_D4_1861_정사각형방 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
-	private static int[][] map = new int[1000][1000];
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] map = new int[1000][1000];
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();

@@ -6,10 +6,10 @@ import java.util.Scanner;
 
 public class SWEA_D4_1226_미로1 {
 	
-	private static int N = 16;
-	private static char[][] map = new char[N][N];
-	private static Pair start = new Pair(0, 0);
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int N = 16;
+	private static final char[][] map = new char[N][N];
+	private static final Pair start = new Pair(0, 0);
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

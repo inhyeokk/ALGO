@@ -3,7 +3,7 @@ package boj;
 import java.util.Scanner;
 
 public class BOJ_S3_15649_N과M1 {
-	private static StringBuilder sb = new StringBuilder();
+	private static final StringBuilder sb = new StringBuilder();
 	private static int n, m;
 	private static int[] arr;
 	private static boolean[] visit;

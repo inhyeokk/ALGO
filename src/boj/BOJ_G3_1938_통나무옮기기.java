@@ -15,8 +15,8 @@ import java.util.Queue;
  * @idea	통나무 3개 중 중심좌표를 두고 가로 세로 방향여부에 따른 BFS 방문탐색
  */
 public class BOJ_G3_1938_통나무옮기기 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
-	private static int[][] di2 = {{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1},{-1,0},{-1,1}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di2 = {{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1},{-1,0},{-1,1}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());

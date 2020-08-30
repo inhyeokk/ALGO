@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 public class BOJ_S1_1992_쿼드트리 {
 	private static int n;
 	private static boolean[][] map;
-	private static StringBuilder sb = new StringBuilder();
+	private static final StringBuilder sb = new StringBuilder();
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		n = Integer.parseInt(bf.readLine());

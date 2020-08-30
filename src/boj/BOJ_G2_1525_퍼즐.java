@@ -18,7 +18,7 @@ import java.util.StringTokenizer;
  * @idea	BFS
  */
 public class BOJ_G2_1525_퍼즐 {
-	private static int[][][] di = {
+	private static final int[][][] di = {
 			{{0,1},{1,0}},{{0,1},{1,0},{0,-1}},{{1,0},{0,-1}},
 			{{-1,0},{0,1},{1,0}},{{-1,0},{0,1},{1,0},{0,-1}},{{-1,0},{1,0},{0,-1}},
 			{{-1,0},{0,1}},{{-1,0},{0,1},{0,-1}},{{-1,0},{0,-1}}
@@ -54,7 +54,7 @@ public class BOJ_G2_1525_퍼즐 {
 				int r = 0, c = 0;
 				for (int j = n-1; j >= 0; --j) {
 					for (int k = n-1; k >= 0; --k) {
-						map[j][k] = (int)v%10;
+						map[j][k] = v %10;
 						if (map[j][k] == 0) {
 							r = j;
 							c = k;

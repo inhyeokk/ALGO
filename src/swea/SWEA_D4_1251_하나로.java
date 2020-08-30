@@ -15,10 +15,10 @@ import java.util.StringTokenizer;
  * 			리스트를 정렬 하는 것보다 우선순위 큐가 더 빠르다.
  */
 public class SWEA_D4_1251_하나로 {
-	private static int N = 1000;
-	private static int[] parents = new int[N];
-	private static int[] ranks = new int[N];
-	private static long[][] arr = new long[N][2];
+	private static final int N = 1000;
+	private static final int[] parents = new int[N];
+	private static final int[] ranks = new int[N];
+	private static final long[][] arr = new long[N][2];
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st1, st2;

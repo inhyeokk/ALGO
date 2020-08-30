@@ -15,12 +15,12 @@ import java.util.StringTokenizer;
  * @time   96ms / 1초
  */
 public class BOJ_G5_2636_치즈 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	private static int h, w;
 	private static boolean[][] map;
 	private static boolean[][] visit;
-	private static Queue<Integer> air = new LinkedList<>();
-	private static Queue<Integer> melt = new LinkedList<>();
+	private static final Queue<Integer> air = new LinkedList<>();
+	private static final Queue<Integer> melt = new LinkedList<>();
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine(), " ");

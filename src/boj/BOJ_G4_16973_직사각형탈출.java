@@ -18,7 +18,7 @@ import java.util.StringTokenizer;
 public class BOJ_G4_16973_직사각형탈출 {
 	private static int n, m, h, w;
 	private static boolean[][] map, visit;
-	private static int[][] di = {{0,1},{0,-1},{1,0},{-1,0}};
+	private static final int[][] di = {{0,1},{0,-1},{1,0},{-1,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine(), " ");

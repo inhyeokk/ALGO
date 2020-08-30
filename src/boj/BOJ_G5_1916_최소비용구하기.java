@@ -19,7 +19,7 @@ public class BOJ_G5_1916_최소비용구하기 {
 	private static int n, m, a, b;
 	private static List<Move>[] graph;
 	private static int[] dist;
-	private static int INF = 1000000001;
+	private static final int INF = 1000000001;
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

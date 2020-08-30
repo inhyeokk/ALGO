@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 class Solution4 {
-    private int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+    private final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
     public int solution(int[][] board) {
         int n = board.length;
         int[][][] weight = new int[n][n][4];

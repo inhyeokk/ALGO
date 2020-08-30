@@ -6,8 +6,8 @@ import java.util.TreeSet;
 
 public class SWEA_D3_5948_새샘이의735게임 {
     
-	private static int N = 7;
-	private static TreeSet<Integer> set = new TreeSet<>();
+	private static final int N = 7;
+	private static final TreeSet<Integer> set = new TreeSet<>();
     public static void main(String[] args) {
         
     	Scanner sc = new Scanner(System.in);

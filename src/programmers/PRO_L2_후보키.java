@@ -15,7 +15,8 @@ public class PRO_L2_후보키 {
 	private String[][] rela;
 	private int len, end, row;
 	private boolean[] visit;
-	private int cnt, combi[];
+	private int cnt;
+    private int[] combi;
 	private HashSet<String> set;
 	public int solution(String[][] relation) {
 		rela = relation;

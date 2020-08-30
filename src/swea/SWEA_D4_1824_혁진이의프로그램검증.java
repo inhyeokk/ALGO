@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class SWEA_D4_1824_혁진이의프로그램검증 {
 
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
     private static boolean possible;
     private static boolean[][][][] visit;
 	public static void main(String[] args) {

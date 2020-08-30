@@ -14,10 +14,10 @@ import java.util.StringTokenizer;
  * @time   312ms / 1초
  */
 public class BOJ_G3_17136_색종이붙이기 {
-	private static int n = 10;
-	private static boolean[][] map = new boolean[n][n];
+	private static final int n = 10;
+	private static final boolean[][] map = new boolean[n][n];
 	private static int min = 26;
-	private static List<Paper> list = new LinkedList<>();
+	private static final List<Paper> list = new LinkedList<>();
 	private static int size;
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

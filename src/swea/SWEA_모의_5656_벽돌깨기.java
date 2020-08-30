@@ -16,8 +16,8 @@ public class SWEA_모의_5656_벽돌깨기 {
 	private static int n, w, h;
 	private static int[][] map;
 	private static int min;
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
-	private static Queue<int[]> queue = new LinkedList<>();
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final Queue<int[]> queue = new LinkedList<>();
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

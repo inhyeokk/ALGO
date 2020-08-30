@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class SWEA_D4_5684_운동 {
 	private static List<Integer>[] graph;
-    private static boolean[] visit = new boolean[401];
+    private static final boolean[] visit = new boolean[401];
     private static int min;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

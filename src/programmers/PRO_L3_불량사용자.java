@@ -12,7 +12,7 @@ import java.util.Set;
 public class PRO_L3_불량사용자 {
 	private int u, b;
 	private String[] users, banned;
-	private Set<Integer> set = new HashSet<>();
+	private final Set<Integer> set = new HashSet<>();
 	public int solution(String[] user_id, String[] banned_id) {
         users = user_id;
         banned = banned_id;

@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 public class BOJ_G5_17070_파이프옮기기1 {
-	private static int[][][] di = {{{0,1},{1,1}}, {{0,1},{1,1},{1,0}}, {{0,0}, {1,1}, {1,0}}};
+	private static final int[][][] di = {{{0,1},{1,1}}, {{0,1},{1,1},{1,0}}, {{0,0}, {1,1}, {1,0}}};
 	private static int count = 0;
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

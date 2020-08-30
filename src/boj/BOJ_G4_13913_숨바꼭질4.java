@@ -19,9 +19,9 @@ import java.util.StringTokenizer;
  * 			3. N위치로 돌아오면 스택 내의 이동 기록을 출력
  */
 public class BOJ_G4_13913_숨바꼭질4 {
-	private static int N = 100001;
-	private static boolean[] visit = new boolean[N];
-	private static int[] memo = new int[N];
+	private static final int N = 100001;
+	private static final boolean[] visit = new boolean[N];
+	private static final int[] memo = new int[N];
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine(), " ");

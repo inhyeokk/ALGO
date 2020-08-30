@@ -18,10 +18,10 @@ import java.util.StringTokenizer;
  * 		아래와 같이 경우에 따른 값을 저장해 쓰게되면 시간이 절반 이하로 줄어든다.
  */
 public class SWEA_D4_3234_준환이의양팔저울 {
-	private static int[] arr = new int[9];
+	private static final int[] arr = new int[9];
 	private static int n, cnt;
-	private static int[] pow = {1,2,4,8,16,32,64,128,256,512};
-	private static int[] fac = {1,1,2,6,24,120,720,5040,40320,362880};
+	private static final int[] pow = {1,2,4,8,16,32,64,128,256,512};
+	private static final int[] fac = {1,1,2,6,24,120,720,5040,40320,362880};
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

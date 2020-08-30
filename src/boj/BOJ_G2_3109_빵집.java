@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class BOJ_G2_3109_빵집 {
-	private static int[] di = {-1,0,1};
+	private static final int[] di = {-1,0,1};
 	private static char[][] map;
 	private static int cnt;
 	private static boolean possible;

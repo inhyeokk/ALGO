@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // pq X 간선이 매우 많을 때 유리
 public class Dijkstra {
-	private static String input = "​7 11 0 1 9 0 2 5 0 5 19 2 3 1 2 5 15 3 0 2 3 1 7 3 5 17 3 4 8 4 6 4 6 1 3";
+	private static final String input = "​7 11 0 1 9 0 2 5 0 5 19 2 3 1 2 5 15 3 0 2 3 1 7 3 5 17 3 4 8 4 6 4 6 1 3";
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int V = sc.nextInt();

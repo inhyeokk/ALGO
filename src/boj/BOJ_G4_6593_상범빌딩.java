@@ -16,7 +16,7 @@ import java.util.StringTokenizer;
  * @idea	BFS
  */
 public class BOJ_G4_6593_상범빌딩 {
-	private static int[][] di = {{0,0,1},{0,0,-1},{0,1,0},{0,-1,0},{1,0,0},{-1,0,0}};
+	private static final int[][] di = {{0,0,1},{0,0,-1},{0,1,0},{0,-1,0},{1,0,0},{-1,0,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
@@ -73,8 +73,8 @@ public class BOJ_G4_6593_상범빌딩 {
 				sb.append("Trapped!");
 			}
 			sb.append("\n");
-		};
-		System.out.print(sb);
+		}
+        System.out.print(sb);
 		br.close();
 	}
 }

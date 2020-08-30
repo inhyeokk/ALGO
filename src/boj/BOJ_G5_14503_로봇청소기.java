@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
  * @time   80ms / 2초
  */
 public class BOJ_G5_14503_로봇청소기 {
-	private static int[][] di = {{-1,0},{0,1},{1,0},{0,-1}};
+	private static final int[][] di = {{-1,0},{0,1},{1,0},{0,-1}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine(), " ");

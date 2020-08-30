@@ -6,8 +6,8 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class BOJ_S1_4963_섬의개수 {
-	private static boolean[][] map = new boolean[50][50];
-	private static int[][] di = {{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1},{-1,0},{-1,1}};
+	private static final boolean[][] map = new boolean[50][50];
+	private static final int[][] di = {{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1},{-1,0},{-1,1}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

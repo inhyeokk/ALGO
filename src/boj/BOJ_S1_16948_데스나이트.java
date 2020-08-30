@@ -8,7 +8,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class BOJ_S1_16948_데스나이트 {
-	private static int[][] di = {{-2,-1},{-2,1},{0,-2},{0,2},{2,-1},{2,1}};
+	private static final int[][] di = {{-2,-1},{-2,1},{0,-2},{0,2},{2,-1},{2,1}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(bf.readLine());

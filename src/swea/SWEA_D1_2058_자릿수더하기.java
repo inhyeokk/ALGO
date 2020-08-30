@@ -19,5 +19,5 @@ public class SWEA_D1_2058_자릿수더하기 {
 		sc.close();
 	}
 	
-	private static String src = "6789";
+	private static final String src = "6789";
 }

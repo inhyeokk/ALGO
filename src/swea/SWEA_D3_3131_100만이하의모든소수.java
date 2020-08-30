@@ -2,7 +2,7 @@ package swea;
 
 public class SWEA_D3_3131_100만이하의모든소수 {
     
-	private static int N = 1000000;
+	private static final int N = 1000000;
     public static void main(String[] args) {
         
         StringBuilder sb = new StringBuilder();

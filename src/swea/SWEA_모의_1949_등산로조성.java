@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SWEA_모의_1949_등산로조성 {
 	
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	private static int depth;
 	
 	public static void main(String[] args) {

@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 public class BOJ_S1_3190_뱀 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(bf.readLine());

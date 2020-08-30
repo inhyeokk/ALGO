@@ -15,9 +15,9 @@ import java.util.StringTokenizer;
  * @time   420ms / 1초
  */
 public class BOJ_G4_2580_스도쿠 {
-	private static int n = 9;
+	private static final int n = 9;
 	private static int[][] map;
-	private static List<Node> zero = new LinkedList<>();
+	private static final List<Node> zero = new LinkedList<>();
 	private static boolean end = false;
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

@@ -16,8 +16,8 @@ import java.util.StringTokenizer;
  * @idea	시뮬레이션
  */
 public class BOJ_G4_16137_견우와직녀 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
-	private static int[][] ddi = {{0,1},{1,0},{0,-1},{-1,0},{0,1}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] ddi = {{0,1},{1,0},{0,-1},{-1,0},{0,1}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");

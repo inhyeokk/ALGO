@@ -11,10 +11,10 @@ import java.util.StringTokenizer;
  * @time   132ms / 20초
  */
 public class SWEA_D4_7699_수지의수지맞는여행 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
-	private static char[][] map = new char[20][20];
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final char[][] map = new char[20][20];
 	private static int r, c;
-	private static boolean[] visit = new boolean[26];
+	private static final boolean[] visit = new boolean[26];
 	private static int max;
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

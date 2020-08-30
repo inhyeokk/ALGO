@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class SWEA_D4_1231_중위순회 {
 	private static Node[] tree;
-	private static StringBuilder sb = new StringBuilder();
+	private static final StringBuilder sb = new StringBuilder();
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

@@ -14,7 +14,8 @@ import java.util.StringTokenizer;
  * @idea	시뮬레이션
  */
 public class SWEA_D4_9659_다항식계산 {
-	private static int n, MOD = 998244353;
+	private static int n;
+    private static final int MOD = 998244353;
 	private static int[][] input;
 	private static long[] memo;
 	public static void main(String[] args) throws IOException {

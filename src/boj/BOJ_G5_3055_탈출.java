@@ -19,7 +19,7 @@ public class BOJ_G5_3055_탈출 {
 	private static int r, c;
 	private static char[][] map;
 	private static boolean[][] wvisit, mvisit;
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine(), " ");

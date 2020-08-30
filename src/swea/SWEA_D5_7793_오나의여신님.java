@@ -18,7 +18,7 @@ public class SWEA_D5_7793_오나의여신님 {
 	 * 3. 큐 데이터 삽입 시 정수형 변수를 여러번 넣고 뺴는 것 보다
 	 * 	    정수형 배열 or 클래스를 사용하는 것이 더 효율적임
 	 */
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	private static int n, m;
 	private static char[][] map;
 	private static Queue<int[]> su, de;

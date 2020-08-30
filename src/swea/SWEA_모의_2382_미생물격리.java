@@ -11,8 +11,8 @@ import java.util.StringTokenizer;
  * @time   2024ms / 5초
  */
 public class SWEA_모의_2382_미생물격리 {
-	private static int[][] di = {{0,0},{-1,0},{1,0},{0,-1},{0,1}};
-	private static int[] op = {0, 2, 1, 4, 3};
+	private static final int[][] di = {{0,0},{-1,0},{1,0},{0,-1},{0,1}};
+	private static final int[] op = {0, 2, 1, 4, 3};
 	private static int n, m, k;
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

@@ -14,10 +14,12 @@ import java.util.StringTokenizer;
  * @idea	백트래킹 / 각 팀이 대전하는 경우를 찾아놓고 DFS
  */
 public class BOJ_S3_6987_월드컵 {
-	private static int h = 4, r = 6, c = 3;
-	private static int[][] map = new int[r][c];
+	private static final int h = 4;
+    private static final int r = 6;
+    private static final int c = 3;
+	private static final int[][] map = new int[r][c];
 	private static int possible;
-	private static int[][] di = {
+	private static final int[][] di = {
 			{0,1},{0,2},{0,3},{0,4},{0,5},
 			{1,2},{1,3},{1,4},{1,5},
 			{2,3},{2,4},{2,5},

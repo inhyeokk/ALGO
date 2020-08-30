@@ -12,7 +12,7 @@ import java.util.List;
  * 			이동 경로를 리스트에 저장해두고 이동할때마다 경로 포함 여부를 확인한다.
  */
 public class PRO_L3_방문길이 {
-	private int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	public int solution(String dirs) {
 		int r = 5, c = 5;
 		List<Move> list = new LinkedList<>();

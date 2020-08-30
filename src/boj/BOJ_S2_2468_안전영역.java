@@ -11,7 +11,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class BOJ_S2_2468_안전영역 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	private static int n;
 	private static int[][] map;
 	private static boolean[][] visit;

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class JO_1169_주사위던지기 {
 	
-	private static int[] dice = {1,2,3,4,5,6};
+	private static final int[] dice = {1,2,3,4,5,6};
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

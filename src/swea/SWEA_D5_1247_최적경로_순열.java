@@ -11,9 +11,9 @@ import java.util.StringTokenizer;
  * @time   1035ms / 20초
  */
 public class SWEA_D5_1247_최적경로_순열 {
-	private static int[][] arr = new int[12][2];
+	private static final int[][] arr = new int[12][2];
 	private static int N;
-	private static int[] perm = new int[10];
+	private static final int[] perm = new int[10];
 	private static int min;
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

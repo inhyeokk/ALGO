@@ -14,10 +14,11 @@ import java.util.StringTokenizer;
  * @idea	DFS
  */
 public class BOJ_G5_1405_미친로봇 {
-	private static int n, v = 4;
-	private static boolean[][] visit = new boolean[29][29];
-	private static double[] dv = new double[v];
-	private static int[][] di = {{0,1},{0,-1},{1,0},{-1,0}};
+	private static int n;
+    private static final int v = 4;
+	private static final boolean[][] visit = new boolean[29][29];
+	private static final double[] dv = new double[v];
+	private static final int[][] di = {{0,1},{0,-1},{1,0},{-1,0}};
 	private static double answer;
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

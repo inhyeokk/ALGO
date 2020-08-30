@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class SWEA_D4_1249_보급로 {
-    private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+    private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
      
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

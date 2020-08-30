@@ -5,8 +5,8 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class BOJ_G4_4485_녹색옷입은애가젤다지 {
-	private static int N = 125;
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int N = 125;
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		StringBuilder sb = new StringBuilder();

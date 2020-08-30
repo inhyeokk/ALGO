@@ -19,8 +19,8 @@ import java.util.StringTokenizer;
  * 			   poll 될때 방문 체크 해주어야 함
  */
 public class BOJ_G5_12851_숨바꼭질2 {
-	private static int N = 100001;
-	private static boolean[] visit = new boolean[N];
+	private static final int N = 100001;
+	private static final boolean[] visit = new boolean[N];
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine(), " ");

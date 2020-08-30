@@ -11,10 +11,10 @@ import java.util.StringTokenizer;
  * @time   274ms
  */
 public class SWEA_D5_1247_최적경로 {
-	private static int[][] arr = new int[12][2];
+	private static final int[][] arr = new int[12][2];
 	private static int N;
 	private static int min;
-	private static boolean[] visit = new boolean[10];
+	private static final boolean[] visit = new boolean[10];
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

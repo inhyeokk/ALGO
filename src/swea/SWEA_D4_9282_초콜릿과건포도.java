@@ -12,9 +12,9 @@ import java.util.StringTokenizer;
  */
 public class SWEA_D4_9282_초콜릿과건포도 {
 	private static int n, m;
-	private static int[][] map = new int[50][50];
-	private static boolean[][] rowVisit = new boolean[50][49];
-	private static boolean[][] colVisit = new boolean[49][50];
+	private static final int[][] map = new int[50][50];
+	private static final boolean[][] rowVisit = new boolean[50][49];
+	private static final boolean[][] colVisit = new boolean[49][50];
 	private static int min;
 	private static int end;
 	public static void main(String[] args) throws IOException {

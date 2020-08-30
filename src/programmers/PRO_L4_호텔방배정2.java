@@ -11,7 +11,7 @@ import java.util.Map;
  * 			key가 없거나 현재와 같으면 다음 위치의 key와 union
  */
 public class PRO_L4_호텔방배정2 {
-	private Map<Long, Long> map = new HashMap<>();
+	private final Map<Long, Long> map = new HashMap<>();
 	public long[] solution(long k, long[] room_number) {
 		int len = room_number.length;
         long[] answer = new long[len];

@@ -46,7 +46,7 @@ public class SWEA_D3_5215_햄버거다이어트 {
 		}
 	}
 	
-	private static Comparator<Integer[]> comparator = new Comparator<Integer[]>() {
+	private static final Comparator<Integer[]> comparator = new Comparator<Integer[]>() {
 		
 		@Override
 		public int compare(Integer[] o1, Integer[] o2) {

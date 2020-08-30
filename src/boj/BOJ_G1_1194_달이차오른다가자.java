@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
  * 			가중치 체크가 아닌 방문 체크만으로 가능
  */
 public class BOJ_G1_1194_달이차오른다가자 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");

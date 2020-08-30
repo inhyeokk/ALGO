@@ -17,7 +17,7 @@ public class BOJ_S1_14620_꽃길 {
 	private static int[][] map;
 	private static boolean[][] visit;
 	private static int min = Integer.MAX_VALUE;
-	private static int[][] di = {{0,0},{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,0},{0,1},{1,0},{0,-1},{-1,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

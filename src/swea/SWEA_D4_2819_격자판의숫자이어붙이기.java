@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class SWEA_D4_2819_격자판의숫자이어붙이기 {
 	
-	private static int[][] di = {{0,1}, {1,0}, {0,-1}, {-1,0}};
-	private static HashSet<String> set = new HashSet<>();
+	private static final int[][] di = {{0,1}, {1,0}, {0,-1}, {-1,0}};
+	private static final HashSet<String> set = new HashSet<>();
 	
 	public static void main(String[] args) {
 		

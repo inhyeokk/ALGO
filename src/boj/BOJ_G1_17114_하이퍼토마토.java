@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
  * @time   2080ms / 1초
  */
 public class BOJ_G1_17114_하이퍼토마토 {
-	private static int[][] di = {
+	private static final int[][] di = {
 			{1,0,0,0,0,0,0,0,0,0,0},{-1,0,0,0,0,0,0,0,0,0,0},
 			{0,1,0,0,0,0,0,0,0,0,0},{0,-1,0,0,0,0,0,0,0,0,0},
 			{0,0,1,0,0,0,0,0,0,0,0},{0,0,-1,0,0,0,0,0,0,0,0},
@@ -28,8 +28,8 @@ public class BOJ_G1_17114_하이퍼토마토 {
 			{0,0,0,0,0,0,0,0,0,1,0},{0,0,0,0,0,0,0,0,0,-1,0},
 			{0,0,0,0,0,0,0,0,0,0,1},{0,0,0,0,0,0,0,0,0,0,-1},
 	};
-	private static int n = 11;
-	private static int[] s = new int[n];
+	private static final int n = 11;
+	private static final int[] s = new int[n];
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine());

@@ -16,7 +16,7 @@ import java.util.StringTokenizer;
  * @idea	시뮬레이션
  */
 public class SWEA_모의_5653_줄기세포배양 {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

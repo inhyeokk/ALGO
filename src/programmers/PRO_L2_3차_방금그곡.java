@@ -8,7 +8,7 @@ import java.util.HashMap;
  * @idea	문자열 시뮬레이션
  */
 public class PRO_L2_3차_방금그곡 {
-	private HashMap<String, Character> map = new HashMap<>();
+	private final HashMap<String, Character> map = new HashMap<>();
 	public String solution(String m, String[] musicinfos) {
 		map.put("A#", 'H');
 		map.put("C#", 'I');

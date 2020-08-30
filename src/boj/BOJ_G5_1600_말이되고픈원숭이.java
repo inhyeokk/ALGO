@@ -16,8 +16,8 @@ import java.util.StringTokenizer;
  * @idea	BFS, 범위 체크
  */
 public class BOJ_G5_1600_말이되고픈원숭이 {
-	private static int[][] horse = {{-2,1},{-1,2},{1,2},{2,1},{2,-1},{1,-2},{-1,-2},{-2,-1}};
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] horse = {{-2,1},{-1,2},{1,2},{2,1},{2,-1},{1,-2},{-1,-2},{-2,-1}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	public static void main(String[] args) throws IOException{
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		int k = Integer.parseInt(bf.readLine());

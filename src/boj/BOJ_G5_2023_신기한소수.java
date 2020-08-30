@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class BOJ_G5_2023_신기한소수 {
 	private static int n;
-	private static StringBuilder sb = new StringBuilder();
+	private static final StringBuilder sb = new StringBuilder();
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();

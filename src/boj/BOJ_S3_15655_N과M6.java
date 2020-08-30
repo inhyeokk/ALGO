@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class BOJ_S3_15655_N과M6 {
-	private static StringBuilder sb = new StringBuilder();
+	private static final StringBuilder sb = new StringBuilder();
 	private static int n, m;
 	private static int[] arr;
 	private static boolean[] visit;

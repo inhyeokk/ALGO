@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class Solution2 {
-	private char[][] order = {
+	private final char[][] order = {
 			{'*','+','-'},{'*','-','+'},
 			{'+','*','-'},{'+','-','*'},
 			{'-','+','*'},{'-','*','+'},

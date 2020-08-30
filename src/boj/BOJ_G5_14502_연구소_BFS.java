@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
  * @time   1000ms
  */
 public class BOJ_G5_14502_연구소_BFS {
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	private static int n, m;
 	private static int[][] map;
 	private static Queue<Integer> start;

@@ -16,7 +16,7 @@ import java.util.StringTokenizer;
  * @idea	BFS, 점화식
  */
 public class BOJ_G5_11909_배열탈출 {
-	private static int[][] di = {{0,-1},{-1,0}};
+	private static final int[][] di = {{0,-1},{-1,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

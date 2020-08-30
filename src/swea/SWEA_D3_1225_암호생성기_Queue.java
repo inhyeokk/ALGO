@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class SWEA_D3_1225_암호생성기_Queue {
 
-	private static int N = 8;
+	private static final int N = 8;
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

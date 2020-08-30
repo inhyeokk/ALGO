@@ -6,7 +6,7 @@ package programmers;
  * @author 	rkddlsgur983
  */
 public class PRO_L3_2xn타일링 {
-	private int mod = 1000000007;
+	private final int mod = 1000000007;
 	public int solution(int n) {
 		int[] dp = new int[n];
 		dp[0] = 1;

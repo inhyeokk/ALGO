@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class Solution6 {
-	private Node root = new Node("/", new LinkedList<>());
-	private List<String> list = new LinkedList<>();
+	private final Node root = new Node("/", new LinkedList<>());
+	private final List<String> list = new LinkedList<>();
 	public String[] solution(String[] directory, String[] command) {
 		for (String dir: directory) {
 			makedir(dir);

@@ -8,8 +8,8 @@ import java.util.Scanner;
  * @time   677ms / 8초
  */
 public class SWEA_D4_8275_햄스터 {
-	private static int[][] marr = new int[10][3];
-	private static int[] hamster = new int[6];
+	private static final int[][] marr = new int[10][3];
+	private static final int[] hamster = new int[6];
 	private static int n, x, m;
 	private static int max;
 	public static void main(String[] args) {

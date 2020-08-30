@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class BOJ_G5_14499_주사위굴리기 {
-	private static int[][] di = {{0,0}, {0,1}, {0,-1}, {-1,0}, {1,0}};
+	private static final int[][] di = {{0,0}, {0,1}, {0,-1}, {-1,0}, {1,0}};
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine());

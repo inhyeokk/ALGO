@@ -23,17 +23,19 @@ public class BOJ_G2_17825_주사위윷놀이 {
 	 * len: 각 말판의 길이
 	 * targets: 말의 정보
 	 */
-	private static int N = 10, M = 4, max = 0;
-	private static int[][] map = {
+	private static final int N = 10;
+    private static final int M = 4;
+    private static int max = 0;
+	private static final int[][] map = {
 			{0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40},
 			{10,13,16,19,25,30,35,40},
 			{20,22,24,25,30,35,40},
 			{30,28,27,26,25,30,35,40}
 	};
-	private static boolean[][] visit = new boolean[M][];
-	private static int[] roll = new int[N];
-	private static int[] len = new int[M];
-	private static Target[] targets = new Target[M];
+	private static final boolean[][] visit = new boolean[M][];
+	private static final int[] roll = new int[N];
+	private static final int[] len = new int[M];
+	private static final Target[] targets = new Target[M];
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");

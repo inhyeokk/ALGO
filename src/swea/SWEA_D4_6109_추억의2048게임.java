@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
  */
 public class SWEA_D4_6109_추억의2048게임 {
 	private static int n;
-	private static int[][] map = new int[20][20];
+	private static final int[][] map = new int[20][20];
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

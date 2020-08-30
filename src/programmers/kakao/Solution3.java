@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class Solution3 {
 	private int ulen, blen;
-	private HashSet<String> set = new HashSet<>();
+	private final HashSet<String> set = new HashSet<>();
 	private boolean[] visit;
 	
 	public int solution(String[] user_id, String[] banned_id) {

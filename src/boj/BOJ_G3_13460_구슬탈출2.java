@@ -17,7 +17,7 @@ public class BOJ_G3_13460_구슬탈출2 {
 	private static int n, m;
 	private static char[][] map;
 	private static int possible, min = 11;
-	private static int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
+	private static final int[][] di = {{0,1},{1,0},{0,-1},{-1,0}};
 	private static int rer, rec;
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

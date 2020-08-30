@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
  */
 public class SWEA_D4_9282_초콜릿과건포도_메모이제이션 {
 	private static int n, m;
-	private static int[][] map = new int[50][50];
+	private static final int[][] map = new int[50][50];
 	private static int[][][][] dp;
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

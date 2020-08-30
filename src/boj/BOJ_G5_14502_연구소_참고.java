@@ -10,8 +10,8 @@ public class BOJ_G5_14502_연구소_참고 {
 	static int m;
 	static int size;
 	static int max;
-	static int newmap[][];
-	static boolean visit[][];
+	static int[][] newmap;
+	static boolean[][] visit;
 	static ArrayList<int[]> list = new ArrayList<>();
 	static int[][] dir = { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } };
 

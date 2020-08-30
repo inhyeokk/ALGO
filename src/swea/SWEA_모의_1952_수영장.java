@@ -11,8 +11,8 @@ import java.util.StringTokenizer;
  * @time   116ms
  */
 public class SWEA_모의_1952_수영장 {
-	private static int[] charge = new int[4];
-	private static int[] plan = new int[12];
+	private static final int[] charge = new int[4];
+	private static final int[] plan = new int[12];
 	private static int min;
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

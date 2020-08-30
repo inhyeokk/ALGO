@@ -1,8 +1,8 @@
-﻿package swea;
+package swea;
 
 import java.io.IOException;
 import java.util.Scanner;
- 
+
 public class SWEA_D4_4408_자기방으로돌아가기 {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
@@ -16,18 +16,18 @@ public class SWEA_D4_4408_자기방으로돌아가기 {
                 int a = sc.nextInt();
                 int b = sc.nextInt();
                 if (a > b) {
-                	int temp = a;
-                	a = b;
-                	b = temp;
+                    int temp = a;
+                    a = b;
+                    b = temp;
                 }
                 for (int k = (int)Math.ceil(a/2.0); k <= Math.ceil(b/2.0); ++k) {
-                	++map[k];
+                    ++map[k];
                 }
             }
             int max = 0;
             for (int j = 0; j < 201; ++j) {
-            	max = max < map[j] ? map[j] : max;
-            	map[j] = 0;
+                max = Math.max(max, map[j]);
+                map[j] = 0;
             }
             sb.append(max).append("\n");
         }

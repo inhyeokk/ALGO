@@ -1,5 +1,3 @@
-package programmers;
-
 /**
  * @{link} 	https://programmers.co.kr/learn/courses/30/lessons/43238
  * @date   	2020-05-09
@@ -10,16 +8,16 @@ public class PRO_L3_입국심사 {
 	public long solution(int n, int[] times) {
         long min = 1;
         long max = 1;
-        int len = times.length;
-        for (int i = 0; i < len; ++i) {
-        	max = Math.max(((long)times[i])*((long)n), max);
-        }
+		for (int j : times) {
+			max = Math.max(j, max);
+		}
+		max *= n;
 		long answer = 0;
 		while (min <= max) {
 			long mid = (min+max)/2;
 			long cnt = 0;
-			for (int i = 0; i < len; ++i) {
-				cnt += mid/(long)times[i];
+			for (int time : times) {
+				cnt += mid / time;
 				if (cnt >= n) break;
 			}
 			if (cnt >= n) {

@@ -40,6 +40,7 @@ fun main() {
         if (cnt[c] == 0) {
             max = max(eat+1, max)
         }
+        if (max == d) break
     }
     print(max)
 }

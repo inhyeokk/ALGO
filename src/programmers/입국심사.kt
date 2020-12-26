@@ -1,3 +1,5 @@
+package programmers
+
 import java.lang.Long.max
 
 fun solution(n: Int, times: IntArray): Long {
